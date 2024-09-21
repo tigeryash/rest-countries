@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito Sans Variable", sans-serif;
+}
+
+@layer base {
+  :root {
+    --elements: 0deg, 0%, 100%;
+    --background: 0deg, 0%, 98%;
+    --text: 200deg, 15%, 8%;
+    --input: 0deg, 0%, 52%;
+  }
+
+  .dark {
+    --elements: 209deg, 23%, 22%;
+    --background: 207deg, 26%, 17%;
+    --text: 0deg, 0%, 100%;
+    --input: 209deg, 23%, 22%;
+  }
+}
